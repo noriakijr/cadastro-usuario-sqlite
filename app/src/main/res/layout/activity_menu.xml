@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="com.noriaki.crudsqlite.MenuActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Novo"
+        android:id="@+id/btNovo"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Lista"
+        android:id="@+id/btLista" />
+
+</LinearLayout>
